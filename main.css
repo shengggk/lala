@@ -1,0 +1,156 @@
+html{
+    position:relative;
+    overflow:hidden !important;
+}
+body{
+    font-family:'Quicksand' ,sans-serif;
+    padding:0;
+    margin:0;
+}
+.bg{
+    top:0; left:0;
+    width: 100%;
+    height: 100%;
+    min-height:100vh;
+    position:absolute;
+    z-index:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.background{
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100%;
+    min-height:100vh;
+    background: url('bg1.png')  no-repeat ;
+    background-size: cover;
+
+    position:absolute;
+    z-index:-5;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.background2{
+    top:0;
+    left:0;
+width: 100%;
+height: 100%;
+min-height: 100vh;
+background:url('bg2.png') no-repeat;
+background-size: cover;
+position:absolute;
+z-index:-4}
+.yinghua{
+    top:0;
+    left:0;
+width: 100%;
+height: 100%;
+min-height: 100vh;
+background:url('yinghua.png');
+position:absolute;
+z-index: -1;
+}
+.card{
+    z-index: 0;
+}
+.logo1{
+    margin:auto;
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+}
+.logo2{
+    width: 180px;
+    height: 180px;
+    margin:5px 5px;
+    border-radius: 50%;
+    border:2px solid rgba(255,255,255,.9);
+    box-shadow:0px 0px 10px #ffffff;
+    transition: all 1s;
+}
+.logo2:hover{
+    transform: rotate(360deg);
+
+}
+.name{
+    margin-top: 5px;
+    text-align: center;
+    font-size:30px;
+    color:white;
+    font-weight: 500;
+    text-shadow:0px 0px 12px white;
+    transition:all .5s;
+
+}
+.name:hover{
+    text-shadow:0px 0px 30px white;
+
+}
+.sousuo{
+    margin:auto;
+    width: 600px;
+    height: 50px;
+    background-color: rgba(255,255,255,0.1);
+    border:1px solid rgba(255,255,255,.8);
+    text-shadow:0px 0px 12px #ffffff;
+    box-shadow:0px 0px 12px #ffffff;
+    border-radius: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+}
+.sousuo:hover{
+    background-color: rgba(255,255,255,.4);
+    box-shadow: 0px 0px 25px #ffffff;
+}
+.sousuo2{
+    text-align: center;
+    color:pink;
+    font-size:16px;
+    max-width: 500px;
+}
+.button{
+    margin-top:15px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    text-align: center;
+    line-height:50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 50px;
+    width: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    
+    color: #ffffff;
+    box-shadow: 0px 0px 12px #ffffff;
+    transition: all 0.5s;
+}
+.lihui{
+    position:fixed;
+    background-image: url('lihui.texb');
+    width: 700px;
+    height: 700px;
+    left:-100px;
+    bottom:0;
+    background-size: cover;
+    z-index:-2;
+}
